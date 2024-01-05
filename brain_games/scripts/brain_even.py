@@ -4,7 +4,7 @@ from brain_games.cli import welcome_user
 
 def main():
     count = 0
-    name = str(welcome_user())
+    name = welcome_user()
 
     while count < 3:
         random_number = randint(1, 100)
@@ -29,6 +29,7 @@ def main():
             print("Answer is wrong ;(. Type only 'yes' or 'no'.")
             print(f'''Let's try again, {name}!''')
             break
+    if count == 3:
         print(f'''Congratulations, {name}!''')
 
 
