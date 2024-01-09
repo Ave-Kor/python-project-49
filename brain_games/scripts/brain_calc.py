@@ -1,7 +1,5 @@
-from random import randint
-from random import choice
 from brain_games.cli import welcome_user
-from brain_games.games.game import calculation, ask_question, generate_question, check_answer
+from brain_games.games.game import ask_question, generate_question, check_answer
 
 
 def main():
