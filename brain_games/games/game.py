@@ -33,8 +33,8 @@ def check_answer(u_input, answer):
 def generate_question_nod():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
-    answer_nod = calculation_nod(number1, number2)
-    return answer_nod, number1, number2
+    question_string = f"Question: {number1} {number2}"
+    return question_string, number1, number2, calculation_nod(number1, number2)
 
 
 def calculation_nod(number1, number2):
@@ -43,7 +43,7 @@ def calculation_nod(number1, number2):
             number1 = number1 % number2
         else:
             number2 = number2 % number1
-    return number1 + number2
+    return abs(number1 + number2)
 
 
 def ask_nod(number1, number2):

@@ -5,4 +5,6 @@ Maintainability [Badge](<a href="https://codeclimate.com/github/Ave-Kor/python-p
 
 First game on [asciinema.org](https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT)
 
-Second game on [https://asciinema.org/](https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN)
+Second game on [asciinema.org](https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN)
+
+Third game on [asciinema.org](https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw)

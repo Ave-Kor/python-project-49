@@ -7,7 +7,7 @@ def main():
     name = welcome_user()
     while count < 3:
         print('Find the greatest common divisor of given numbers.')
-        answer_nod, number1, number2 = calculation_nod()
+        question_string, number1, number2, answer_nod = generate_question_nod()
         u_input = ask_nod(number1, number2)
         if check_answer_nod(u_input, answer_nod):
             count += 1
