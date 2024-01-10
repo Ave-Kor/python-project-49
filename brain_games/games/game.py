@@ -32,7 +32,7 @@ def check_answer(u_input, answer):
 
 def generate_question_nod():
     number1 = randint(1, 100)
-    number2 - randint(1, 100)
+    number2 = randint(1, 100)
     answer_nod = calculation_nod(number1, number2)
     return answer_nod, number1, number2
 
