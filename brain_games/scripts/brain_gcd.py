@@ -1,5 +1,5 @@
 from brain_games.cli import welcome_user
-from brain_games.games.game import ask_nod, generate_question_nod, calculation_nod, check_answer_nod
+from brain_games.games.game import ask_nod, generate_question_nod, check_answer_nod
 
 
 def main():
