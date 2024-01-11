@@ -2,6 +2,49 @@ from random import randint
 from random import choice
 
 
+# генерируем случайное число (even)
+def generate_number():
+    return randint(1, 100)
+
+
+# задаём вопрос (even)
+def ask_even(random_number):
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Question: ', random_number)
+
+
+# просим ввести ответ
+def ask_input():
+    return input('Your answer: ')
+
+
+# вывод "Правильно!"
+def show_correct():
+    print('Correct!')
+
+
+# Проверяем (even)
+def check_even(user_input, random_number, name):
+    if user_input.lower() == 'yes' and random_number % 2 == 0:
+        show_correct()
+        return True
+    elif user_input.lower() == 'yes' and random_number % 2 != 0:
+        print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+        print(f'''Let's try again, {name}!''')
+        return False
+    elif user_input.lower() == 'no' and random_number % 2 != 0:
+        show_correct()
+        return True
+    elif user_input.lower() == 'no' and random_number % 2 == 0:
+        print("'no' is wrong answer ;(. Correct answer was 'yes'.")
+        print(f'''Let's try again, {name}!''')
+        return False
+    else:
+        print("Answer is wrong ;(. Type only 'yes' or 'no'.")
+        print(f'''Let's try again, {name}!''')
+        return False
+
+
 def calculation(number1, number2):
     operators = '+-*'
     operator = choice(operators)
