@@ -45,6 +45,15 @@ def check_even(user_input, random_number, name):
         return False
 
 
+# генерируем случайные числа
+def generate_question():
+    number1 = randint(1, 100)
+    number2 = randint(1, 100)
+    answer, operator = calculation(number1, number2)
+    return answer, operator, number1, number2
+
+
+# генерируем случайное выражение
 def calculation(number1, number2):
     operators = '+-*'
     operator = choice(operators)
@@ -56,23 +65,19 @@ def calculation(number1, number2):
         return number1 * number2, operator
 
 
+# задаём вопрос (calc)
 def ask_question(number1, operator, number2):
     print(f'Question: {number1} {operator} {number2}')
     u_input = int(input('Your answer: '))
     return u_input
 
 
-def generate_question():
-    number1 = randint(1, 100)
-    number2 = randint(1, 100)
-    answer, operator = calculation(number1, number2)
-    return answer, operator, number1, number2
-
-
+# проверям ответ (calc, gcd)
 def check_answer(u_input, answer):
     return u_input == answer
 
 
+# генерируем вопрос (gcd)
 def generate_question_nod():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
@@ -80,6 +85,7 @@ def generate_question_nod():
     return question_string, number1, number2, calculation_nod(number1, number2)
 
 
+# считаем (gcd)
 def calculation_nod(number1, number2):
     while number1 != 0 and number2 != 0:
         if abs(number1) > abs(number2):
@@ -89,11 +95,8 @@ def calculation_nod(number1, number2):
     return abs(number1 + number2)
 
 
+# задаём вопрос (gcd)
 def ask_nod(number1, number2):
     print(f'Question: {number1} {number2}')
     u_input = int(input('Your answer: '))
     return u_input
-
-
-def check_answer_nod(u_input, answer_nod):
-    return u_input == answer_nod

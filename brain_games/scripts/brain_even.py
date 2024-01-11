@@ -12,7 +12,7 @@ def main():
     count = 0
     name = welcome_user()
 
-# вводим счётчик раундов
+    # вводим счётчик раундов
     while count < 3:
         random_number = generate_number()
         ask_even(random_number)
