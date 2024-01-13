@@ -100,3 +100,27 @@ def ask_nod(number1, number2):
     print(f'Question: {number1} {number2}')
     u_input = int(input('Your answer: '))
     return u_input
+
+
+def generate_question_prog():
+    random_number = randint(1, 100)
+    question_string = [random_number]
+    step = randint(1, 100)
+    current_number = random_number
+    while len(question_string) < 10:
+        current_number += step
+        question_string.append(current_number)
+    random_index = randint(0, len(question_string) - 1)
+    answer = question_string[random_index]
+    question_string[random_index] = '..'
+    return question_string, answer
+
+
+def ask_prog(question_string):
+    print('What number is missing in the progression?')
+    question_str = ' '.join(str(num) for num in question_string)
+    print('Question: ', question_str)
+
+
+def check_prog(user_input, answer):
+    return int(user_input) == int(answer)
