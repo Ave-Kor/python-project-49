@@ -124,3 +124,28 @@ def ask_prog(question_string):
 
 def check_prog(user_input, answer):
     return int(user_input) == int(answer)
+
+
+def generate_prime(number):
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+    else:
+        return True
+
+
+def ask_prime():
+    number = generate_number()
+    print('''Answer "yes" if given number is prime. Otherwise answer "no".''')
+    print(f'Question: {number}')
+    user_input = input('Your answer: ')
+    return user_input, number
+
+
+def check_prime(user_input, number):
+    if user_input.lower() == 'yes' and generate_prime(number) is True:
+        return True
+    elif user_input.lower() == 'no' and generate_prime(number) is False:
+        return True
+    else:
+        return False
