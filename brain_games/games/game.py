@@ -122,8 +122,8 @@ def ask_prog(question_string):
     print('Question: ', question_str)
 
 
-def check_prog(user_input, answer):
-    return int(user_input) == int(answer)
+def check_prog(u_input, answer):
+    return int(u_input) == int(answer)
 
 
 def generate_prime(number):

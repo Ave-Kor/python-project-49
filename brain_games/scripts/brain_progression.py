@@ -13,12 +13,12 @@ def main():
     while count < 3:
         question_string, answer = generate_question_prog()
         ask_prog(question_string)
-        user_input = str(ask_input())
-        if check_prog(user_input, answer):
+        u_input = str(ask_input())
+        if check_prog(u_input, answer):
             count += 1
             print('Correct!')
         else:
-            print(f'{user_input} is wrong answer ;(. Correct answer was {answer}.')
+            print(f'{u_input} is wrong answer ;(. Correct answer was {answer}.')
             print(f"Let's try again, {name}!")
             break
     if count == 3:
