@@ -122,7 +122,7 @@ def generate_question_prog():
 def ask_prog(question_string):
     print('What number is missing in the progression?')
     question_str = ' '.join(str(num) for num in question_string)
-    print('Question: ', question_str)
+    print('Question:', question_str)
 
 
 # проверяем ответ (progression)
