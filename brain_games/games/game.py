@@ -11,7 +11,7 @@ def generate_number():
 # задаём вопрос (even)
 def ask_even(random_number):
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    print('Question: ', random_number)
+    print(f'Question: {random_number}')
 
 
 # просим ввести ответ
