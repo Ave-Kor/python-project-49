@@ -8,6 +8,7 @@ from brain_games.games.game import (
 )
 
 
+# начинаем игру
 def main():
     count = 0
     name = welcome_user()

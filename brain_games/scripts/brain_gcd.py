@@ -1,7 +1,9 @@
+# импортируем функции
 from brain_games.cli import welcome_user
 from brain_games.games.game import ask_nod, generate_question_nod, check_answer
 
 
+# начинаем игру
 def main():
     count = 0
     name = welcome_user()

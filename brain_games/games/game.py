@@ -1,8 +1,9 @@
+# импортиурем функции из библиотеки random
 from random import randint
 from random import choice
 
 
-# генерируем случайное число (even)
+# генерируем случайное число
 def generate_number():
     return randint(1, 100)
 
@@ -102,6 +103,7 @@ def ask_nod(number1, number2):
     return u_input
 
 
+# генерируем вопрос (progression)
 def generate_question_prog():
     random_number = randint(1, 100)
     question_string = [random_number]
@@ -116,16 +118,19 @@ def generate_question_prog():
     return question_string, answer
 
 
+# задаём вопрос (progression)
 def ask_prog(question_string):
     print('What number is missing in the progression?')
     question_str = ' '.join(str(num) for num in question_string)
     print('Question: ', question_str)
 
 
+# проверяем ответ (progression)
 def check_prog(u_input, answer):
     return int(u_input) == int(answer)
 
 
+# генерируем вопрос (prime)
 def generate_prime(number):
     for i in range(2, number):
         if number % i == 0:
@@ -134,6 +139,7 @@ def generate_prime(number):
         return True
 
 
+# задаём вопрос (prime)
 def ask_prime():
     number = generate_number()
     print('''Answer "yes" if given number is prime. Otherwise answer "no".''')
@@ -142,6 +148,7 @@ def ask_prime():
     return user_input, number
 
 
+# проверяем ответ (prime)
 def check_prime(user_input, number):
     if user_input.lower() == 'yes' and generate_prime(number) is True:
         return True

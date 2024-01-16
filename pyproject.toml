@@ -1,12 +1,17 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "1"
-description = "mindgames"
-authors = ["Your Name <you@example.com>"]
+description = "Mindgames: 5 arithmetic games"
+authors = ["Aleksei <karmano106@gmail.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+repository = "https://github.com/Ave-Kor/python-project-49"
 
 [tool.poetry.dependencies]
 python = "^3.10"
