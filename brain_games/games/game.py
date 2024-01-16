@@ -114,7 +114,7 @@ def generate_question_prog():
         question_string.append(current_number)
     random_index = randint(0, len(question_string) - 1)
     answer = question_string[random_index]
-    question_string[random_index] = '...'
+    question_string[random_index] = ".."
     return question_string, answer
 
 
