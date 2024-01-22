@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Ave-Kor/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ave-Kor/python-project-49/actions)
+(https://github.com/Ave-Kor/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ave-Kor/python-project-49/actions)
 
-Maintainability [Badge](<a href="https://codeclimate.com/github/Ave-Kor/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/1f8e196b64828d03b536/maintainability" /></a>)
+(<a href="https://codeclimate.com/github/Ave-Kor/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/1f8e196b64828d03b536/maintainability" /></a>)
 
 
 Project "Игры разума"
@@ -23,8 +23,12 @@ brain-prime        - относится ли число к простым чис
 Project recording on [asciinema.org](https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz)
 
 
-First game(brain-even) on [asciinema.org](https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT)
+First game(brain-even) on [asciinema.org](<script async id="asciicast-uqn7N248vykyRv2KobCdbDOfT" src="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT.js"></script>)
+
 Second game(brain-calc) on [asciinema.org](https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN)
+
 Third game(brain-gcd) on [asciinema.org](https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw)
+
 Fourth game(brain-progression) on [asciinema.org](https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z) 
+
 Fifth game(brain-prime) on [asciinema.org](https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9)
