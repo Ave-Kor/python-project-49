@@ -7,18 +7,30 @@
 Project "Игры разума"
 
 Сборник математических мини-игр:
+
 brain-even         - проверка числа на чётность
+
 brain-calc         - игра-калькулятор
+
 brain-gcd          - поиск наибольшего общего делителя
+
 brain-progression  - заполнение пропуска в арифметическаяой прогрессии
+
 brain-prime        - относится ли число к простым числам
+
+
 
 Игра является первым тестовым проектом на курсе обучения Python-разработчик.
 
 Скачать Brain Games: pip install --user git+https://github.com/Ave-Kor/python-project-49
+
 Минимальные требования для установки и запуска проекта:
+
 Операционная система: Ubuntu
+
 Язык программирования: Python 3.8 или выше
+
+
 
 
 Project recording on [asciinema.org]<a href="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz" target="_blank"><img src="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz.svg" /></a>
