@@ -14,7 +14,7 @@ def start_game(game):
             print(f"'{user_input}' is wrong answer ;(.")
             print(f"Correct answer was {answer}.")
             print(f"Let's try again, {name}!")
-            break
+            return
         else:
             print('Correct!')
             count += 1
