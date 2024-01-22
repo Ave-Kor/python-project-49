@@ -13,6 +13,7 @@ def question_and_answer():
     for i in range(2, number // 2 + 1):
         if number % i == 0:
             answer = 'no'
+            break
         else:
             answer = 'yes'
     return question, answer
