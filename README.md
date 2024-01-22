@@ -23,7 +23,7 @@ brain-prime        - относится ли число к простым чис
 Project recording on [asciinema.org](https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz)
 
 
-First game(brain-even) on [asciinema.org]([![asciicast]([![asciicast](https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT.svg)](https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT))
+First game(brain-even) on [asciinema.org][![asciinema](https://asciinema.org/a/asciicast-uqn7N248vykyRv2KobCdbDOfT.svg)](https://asciinema.org/a/asciicast-uqn7N248vykyRv2KobCdbDOfT)
 
 Second game(brain-calc) on [asciinema.org](https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN)
 
