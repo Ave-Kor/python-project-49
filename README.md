@@ -20,15 +20,15 @@ brain-prime        - относится ли число к простым чис
 Язык программирования: Python 3.8 или выше
 
 
-Project recording on [asciinema.org](https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz)
+Project recording on [asciinema.org]<a href="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz" target="_blank"><img src="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz.svg" /></a>
 
 
 First game(brain-even) on [asciinema.org]<a href="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT" target="_blank"><img src="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT.svg" /></a>
 
-Second game(brain-calc) on [asciinema.org](https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN)
+Second game(brain-calc) on [asciinema.org]<a href="https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN" target="_blank"><img src="https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN.svg" /></a>
 
-Third game(brain-gcd) on [asciinema.org](https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw)
+Third game(brain-gcd) on [asciinema.org]<a href="https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw" target="_blank"><img src="https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw.svg" /></a>
 
-Fourth game(brain-progression) on [asciinema.org](https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z) 
+Fourth game(brain-progression) on [asciinema.org]<a href="https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z" target="_blank"><img src="https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z.svg" /></a>
 
-Fifth game(brain-prime) on [asciinema.org](https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9)
+Fifth game(brain-prime) on [asciinema.org]<a href="https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9" target="_blank"><img src="https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9.svg" /></a>
