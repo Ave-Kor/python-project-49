@@ -2,7 +2,7 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def game():
+def start_game(game):
     name = welcome_user()
     game.ask_question()
     count = 0
