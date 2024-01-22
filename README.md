@@ -3,22 +3,22 @@
 
 <a href="https://codeclimate.com/github/Ave-Kor/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/1f8e196b64828d03b536/maintainability" /></a>
 
-
+*********************************************************************
 Project "Игры разума"
 
 Сборник математических мини-игр:
 
-brain-even         - проверка числа на чётность
+   1.brain-even         - проверка числа на чётность
 
-brain-calc         - игра-калькулятор
+   2.brain-calc         - игра-калькулятор
 
-brain-gcd          - поиск наибольшего общего делителя
+   3.brain-gcd          - поиск наибольшего общего делителя
 
-brain-progression  - заполнение пропуска в арифметическаяой прогрессии
+   4.brain-progression  - заполнение пропуска в арифметическаяой прогрессии
 
-brain-prime        - относится ли число к простым числам
+   5.brain-prime        - относится ли число к простым числам
 
-
+*********************************************************************
 
 Игра является первым тестовым проектом на курсе обучения Python-разработчик.
 
@@ -31,7 +31,7 @@ brain-prime        - относится ли число к простым чис
 Язык программирования: Python 3.8 или выше
 
 
-
+*********************************************************************
 
 Project recording on [asciinema.org]<a href="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz" target="_blank"><img src="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz.svg" /></a>
 
