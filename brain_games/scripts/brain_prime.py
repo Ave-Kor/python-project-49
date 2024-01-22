@@ -1,26 +1,10 @@
-# импортируем функции
-from brain_games.cli import welcome_user
-from brain_games.games.game import (
-    ask_prime,
-    check_prime,
-)
+import brain_games.games.prime
+import brain_games.engine
 
 
-# начинаем игру
 def main():
-    count = 0
-    name = welcome_user()
-    while count < 3:
-        user_input, number = ask_prime()
-        if check_prime(user_input, number):
-            count += 1
-            print('Correct!')
-        else:
-            print(f'{user_input} is wrong answer ;(.')
-            print(f"Let's try again, {name}!")
-            break
-    if count == 3:
-        print(f'Congratulations, {name}!')
+    game = brain_games.games.prime
+    brain_games.engine.start_game(game)
 
 
 if __name__ == '__main__':
