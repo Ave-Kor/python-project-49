@@ -12,7 +12,7 @@ def question_and_answer():
     number2 = randint(1, 100)
     operators = '+-*'
     operator = choice(operators)
-    question = str(number1, operator, number2)
+    question = f"{number1} {operator} {number2}"
     if operator == '+':
         answer = number1 + number2
     if operator == '-':
