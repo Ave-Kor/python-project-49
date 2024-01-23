@@ -4,44 +4,45 @@
 <a href="https://codeclimate.com/github/Ave-Kor/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/1f8e196b64828d03b536/maintainability" /></a>
 
 *********************************************************************
-Project "Игры разума"
-
-Сборник математических мини-игр:
-
-   1.brain-even         - проверка числа на чётность
-
-   2.brain-calc         - игра-калькулятор
-
-   3.brain-gcd          - поиск наибольшего общего делителя
-
-   4.brain-progression  - заполнение пропуска в арифметическаяой прогрессии
-
-   5.brain-prime        - относится ли число к простым числам
-
-*********************************************************************
+### Project "Игры разума"
 
 Игра является первым тестовым проектом на курсе обучения Python-разработчик.
 
-Скачать Brain Games: pip install --user git+https://github.com/Ave-Kor/python-project-49
+Сборник математических мини-игр:
 
-Минимальные требования для установки и запуска проекта:
+   1. brain-even         - проверка числа на чётность
+
+   2. brain-calc         - игра-калькулятор
+
+   3. brain-gcd          - поиск наибольшего общего делителя
+
+   4. brain-progression  - заполнение пропуска в арифметическаяой прогрессии
+
+   5. brain-prime        - относится ли число к простым числам
+
+*********************************************************************
+
+
+### Минимальные требования для установки и запуска проекта:
 
 Операционная система: Ubuntu
 
 Язык программирования: Python 3.8 или выше
 
+Скачать Brain Games: pip install --user git+https://github.com/Ave-Kor/python-project-49
+
 
 *********************************************************************
 
-Project recording on [asciinema.org]<a href="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz" target="_blank"><img src="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz.svg" /></a>
+### Project recording on asciinema.org<a href="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz" target="_blank"><img src="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz.svg" /></a>
 
 
-First game(brain-even) on [asciinema.org]<a href="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT" target="_blank"><img src="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT.svg" /></a>
+First game(brain-even) on asciinema.org<a href="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT" target="_blank"><img src="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT.svg" /></a>
 
-Second game(brain-calc) on [asciinema.org]<a href="https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN" target="_blank"><img src="https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN.svg" /></a>
+Second game(brain-calc) on asciinema.org<a href="https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN" target="_blank"><img src="https://asciinema.org/a/QVFOG4vnlc0JtT5zv3EI6NDDN.svg" /></a>
 
-Third game(brain-gcd) on [asciinema.org]<a href="https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw" target="_blank"><img src="https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw.svg" /></a>
+Third game(brain-gcd) on asciinema.org<a href="https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw" target="_blank"><img src="https://asciinema.org/a/KgwwZtEaXG2M0atbUix9qKgpw.svg" /></a>
 
-Fourth game(brain-progression) on [asciinema.org]<a href="https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z" target="_blank"><img src="https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z.svg" /></a>
+Fourth game(brain-progression) on asciinema.org<a href="https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z" target="_blank"><img src="https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z.svg" /></a>
 
-Fifth game(brain-prime) on [asciinema.org]<a href="https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9" target="_blank"><img src="https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9.svg" /></a>
+Fifth game(brain-prime) on asciinema.org<a href="https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9" target="_blank"><img src="https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9.svg" /></a>
