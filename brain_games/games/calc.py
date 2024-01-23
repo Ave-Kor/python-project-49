@@ -1,4 +1,4 @@
-from random import randint, choice
+import random
 
 
 # задаём вопрос для calc
@@ -8,11 +8,10 @@ def ask_question():
 
 # генерируем вопрос и ответ для clac
 def question_and_answer():
-    number1 = randint(1, 100)
-    number2 = randint(1, 100)
+    number1, number2 = random.randint(1, 100), random.randint(1, 100)
     operators = '+-*'
-    operator = choice(operators)
-    question = f"{number1} {operator} {number2}"
+    operator = random.choice(operators)
+    question = f'{number1} {operator} {number2}'
     if operator == '+':
         answer = number1 + number2
     if operator == '-':

@@ -1,4 +1,4 @@
-from random import randint
+import random
 
 
 # задаём вопрос для even
@@ -8,7 +8,7 @@ def ask_question():
 
 # генерируем вопрос и ответ для even
 def question_and_answer():
-    question = randint(1, 100)
+    question = random.randint(1, 100)
     if question % 2 == 0:
         answer = 'yes'
     else:

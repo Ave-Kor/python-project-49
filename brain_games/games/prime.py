@@ -1,4 +1,4 @@
-from random import randint
+import random
 
 
 # задаём вопрос для prime
@@ -8,7 +8,7 @@ def ask_question():
 
 # генерируем вопрос и ответ для prime
 def question_and_answer():
-    number = randint(1, 100)
+    number = random.randint(1, 100)
     question = number
     for i in range(2, number // 2 + 1):
         if number % i == 0:
