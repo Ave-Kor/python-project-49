@@ -1,9 +1,7 @@
 import random
 
 
-# задаём вопрос для progression
-def ask_question():
-    print('What number is missing in the progression?')
+GAME_QUEST = 'What number is missing in the progression?'
 
 
 # генерируем вопрос и ответ для progression

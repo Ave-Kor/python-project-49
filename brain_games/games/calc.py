@@ -1,9 +1,7 @@
 import random
 
 
-# задаём вопрос для calc
-def ask_question():
-    print('What is the result of the expression?')
+GAME_QUEST = 'What is the result of the expression?'
 
 
 # генерируем вопрос и ответ для clac

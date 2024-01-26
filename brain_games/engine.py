@@ -4,10 +4,10 @@ from brain_games.cli import welcome_user
 
 def start_game(game):
     name = welcome_user()
-    game.ask_question()
     count = 0
     while count < 3:
         question, answer = game.question_and_answer()
+        print(game.GAME_QUEST)
         print(f'Question: {question}')
         user_input = prompt.string('Your answer: ')
         if user_input.lower() != str(answer):
