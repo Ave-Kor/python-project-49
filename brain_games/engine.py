@@ -1,11 +1,12 @@
 import prompt
 from brain_games.cli import welcome_user
+from brain_games.constants import AMOUNT_OF_ROUNDS
 
 
-def start_game(game):
+def run_start_to_end(game):
     name = welcome_user()
     count = 0
-    while count < 3:
+    while count < AMOUNT_OF_ROUNDS:
         question, answer = game.question_and_answer()
         print(game.GAME_QUEST)
         print(f'Question: {question}')

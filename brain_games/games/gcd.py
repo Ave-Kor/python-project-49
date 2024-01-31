@@ -1,4 +1,5 @@
 import random
+from brain_games.constants import MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER
 
 
 GAME_QUEST = 'Find the greatest common divisor of given numbers.'
@@ -6,13 +7,15 @@ GAME_QUEST = 'Find the greatest common divisor of given numbers.'
 
 # генерируем вопрос и ответ для gcd
 def question_and_answer():
-    number1, number2 = random.randint(1, 100), random.randint(1, 100)
+    number1 = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
+    number2 = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     question = f'{number1} {number2}'
     calculate_gcd(number1, number2)
     answer = calculate_gcd(number1, number2)
     return (question, answer)
 
 
+# рассчитываем наибольший общий делитель
 def calculate_gcd(number1, number2):
     while number1 != 0 and number2 != 0:
         if abs(number1) > abs(number2):

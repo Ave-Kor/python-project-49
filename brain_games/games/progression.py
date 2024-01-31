@@ -1,4 +1,8 @@
 import random
+from brain_games.constants import (
+    MIN_RANDOM_NUMBER,
+    MAX_RANDOM_NUMBER,
+    MAX_PROGRESSION_LENGTH)
 
 
 GAME_QUEST = 'What number is missing in the progression?'
@@ -6,21 +10,22 @@ GAME_QUEST = 'What number is missing in the progression?'
 
 # генерируем вопрос и ответ для progression
 def question_and_answer():
-    number = random.randint(1, 100)
-    step = random.randint(1, 100)
-    question_string = make_progression(number, step)
-    random_index = random.randint(0, len(question_string) - 1)
-    answer = question_string[random_index]
-    question_string[random_index] = ".."
-    question = ' '.join(str(num) for num in question_string)
+    number = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
+    difference = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
+    sequence = make_progression(number, difference)
+    random_index = random.randint(0, len(sequence) - 1)
+    answer = sequence[random_index]
+    sequence[random_index] = ".."
+    question = ' '.join(str(num) for num in sequence)
     return question, answer
 
 
-def make_progression(number, step):
+# создаем прогрессию
+def make_progression(number, difference):
     progression = [number]
     current_number = progression[0]
-    question_string = list(progression)
-    while len(question_string) < 10:
-        current_number += step
-        question_string.append(current_number)
-    return question_string
+    sequence = list(progression)
+    while len(sequence) < MAX_PROGRESSION_LENGTH:
+        current_number += difference
+        sequence.append(current_number)
+    return sequence
