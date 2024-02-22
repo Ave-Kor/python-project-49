@@ -41,11 +41,11 @@
 
 *********************************************************************
 
-#Аскинема проекта:
+# Аскинема проекта:
 
 <a href="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz" target="_blank"><img src="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz.svg" /></a>
 
-#Аскинемы отдельных игр
+# Аскинемы отдельных игр
 
 ### Игра: "Проверка на чётность"
 <a href="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT" target="_blank"><img src="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT.svg" /></a>
