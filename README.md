@@ -41,10 +41,12 @@
 
 *********************************************************************
 
-##Аскинема проекта:
-### Project recording on asciinema.org<a href="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz" target="_blank"><img src="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz.svg" /></a>
+#Аскинема проекта:
 
-##Аскинемы отдельных игр
+<a href="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz" target="_blank"><img src="https://asciinema.org/a/dk86URdaxnuNQfcTIjPHArMqz.svg" /></a>
+
+#Аскинемы отдельных игр
+
 ### Игра: "Проверка на чётность"
 <a href="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT" target="_blank"><img src="https://asciinema.org/a/uqn7N248vykyRv2KobCdbDOfT.svg" /></a>
 
@@ -57,5 +59,5 @@
 ### Игра "Арифметическая прогрессия"
 <a href="https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z" target="_blank"><img src="https://asciinema.org/a/RdMkRo9mogfjZeJs6F7WUKU9z.svg" /></a>
 
-# Игра "Простое ли число?"
+### Игра "Простое ли число?"
 <a href="https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9" target="_blank"><img src="https://asciinema.org/a/8XdlIoJJOCk7SBhfn4gFeyTj9.svg" /></a>
