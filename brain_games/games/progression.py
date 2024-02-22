@@ -10,6 +10,12 @@ GAME_QUEST = 'What number is missing in the progression?'
 
 # генерируем вопрос и ответ для progression
 def question_and_answer():
+    """Brain-progression
+
+    Цель игры: определить число, которое замененно в арифметической прогресси
+    двумя точками.
+
+    """
     number = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     difference = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     sequence = make_progression(number, difference)

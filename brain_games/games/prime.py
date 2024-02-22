@@ -7,6 +7,11 @@ GAME_QUEST = '''Answer "yes" if given number is prime. Otherwise answer "no".'''
 
 # генерируем вопрос и ответ для prime
 def question_and_answer():
+    """Brain-prime
+
+    Цель игры: определить является ли число простым или нет.
+
+    """
     number = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     question = number
     if is_prime(number) is True:

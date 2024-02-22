@@ -7,6 +7,13 @@ GAME_QUEST = 'Find the greatest common divisor of given numbers.'
 
 # генерируем вопрос и ответ для gcd
 def question_and_answer():
+    """Game-gcd
+
+    Цель игры: пользователю показывается два случайных числа,
+    например, 25 50. Пользователь должен вычислить и ввести наибольший
+    общий делитель этих чисел
+
+    """
     number1 = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     number2 = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     question = f'{number1} {number2}'
